@@ -1,0 +1,53 @@
+.contained {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.content {
+  margin-top: 2%;
+  max-width: 50%;
+  padding: 1.5rem;
+  border-radius: 15%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: #556b2f;
+}
+
+.header {
+  font-size: 3rem;
+  color: #556b2f;
+  border-bottom: outset;
+}
+
+ul {
+  margin-right: 5%;
+}
+
+li .tags {
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  font-size: 2.5rem;
+  color: #fa8072;
+}
+
+@media only screen and (max-width: 600px) {
+  .contained {
+    margin-top: 4%;
+  }
+  .content {
+    max-width: 70%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  li .tags {
+    margin-right: 1rem;
+  }
+}

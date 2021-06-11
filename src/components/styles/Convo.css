@@ -1,0 +1,130 @@
+.con {
+  width: 100%;
+  padding: 0 25px;
+  margin-top: 3%;
+  color: #20b2aa;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.Ai {
+  width: 55%;
+  word-wrap: break-word;
+  background-color: #20b2aa;
+  padding: 0.3rem;
+  border-radius: 45px 35px 0 35px;
+  margin: auto;
+  margin-left: 36%;
+}
+
+.Ai h3 {
+  position: relative;
+  /* font-size: 1.5rem; */
+}
+
+.Person {
+  max-width: 40%;
+  word-wrap: break-word;
+  background-color: #fa8072;
+  padding: 0.2rem;
+  border-radius: 35px 35px 35px 0;
+  margin: 0.9rem 0;
+  display: none;
+}
+
+.Person h3 {
+  margin-left: 4%;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 5%;
+  background-color: black;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  border-radius: 15px;
+}
+
+.chat-input input {
+  font-family: "Caveat", cursive;
+  width: 75%;
+  height: 100%;
+  border-style: none;
+  background-color: #4f5d7321;
+  border-radius: 10px;
+  padding-left: 3%;
+  color: #fa8072;
+  font-size: 1.2rem;
+  margin-left: 5%;
+}
+
+.send {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-style: none;
+  color: #20b2aa;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.send:hover {
+  color: #fa8072;
+}
+
+.bot {
+  padding-left: 5%;
+  color: #fa8072;
+}
+
+.user {
+  padding-right: 4%;
+  color: #20b2aa;
+}
+
+@media only screen and (max-width: 2000px) {
+  .Ai {
+    max-width: 45%;
+    margin-top: 2%;
+    margin-left: 50%;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  .Ai h3 {
+    text-align: center;
+  }
+  .chat-input input {
+    width: 82%;
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Ai {
+    max-width: 75%;
+    margin-left: 38%;
+  }
+  .Ai h3 {
+    font-size: 1.2rem;
+    margin-left: 5%;
+  }
+  .Person {
+    max-width: 50%;
+  }
+  .Person h3 {
+    font-size: 1.2rem;
+  }
+  .con {
+    padding: 2%;
+  }
+}

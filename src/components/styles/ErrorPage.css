@@ -1,0 +1,26 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+img {
+  margin-top: 2%;
+  height: 50vh;
+  width: 50vw;
+}
+
+.back {
+  margin-top: 2%;
+  font-size: 2rem;
+  background-color: black;
+  border-radius: 5%;
+  opacity: 0.9;
+  padding: 2rem;
+}
+
+.home {
+  text-decoration: none;
+}
