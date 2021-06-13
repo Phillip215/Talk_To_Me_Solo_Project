@@ -1,4 +1,7 @@
+A solo project using react called Talk To Me where I used the IBM tone analyzer to read a perons tone throught text.
+
 <img width="902" alt="Screenshot 2021-06-11 140044" src="https://user-images.githubusercontent.com/66640425/121819595-ed48e600-cc5b-11eb-8056-2037406dbfd8.png">
+
 The colors I used in this application are:
 
 - #556b2f
